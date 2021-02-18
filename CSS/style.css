@@ -1,0 +1,32 @@
+header div {
+    margin-top: 60px;
+}
+header nav {
+    clear: both;
+    float: right;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+    margin-right: 5%;
+}
+header{
+    margin-bottom: 30px;
+}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+/* header nav{
+    position: relative;
+} */
+main{
+    max-width: 70%;
+    margin-top: 40px;
+}
+#hashed-box{
+    /* box-decoration-break: slice; */
+    width: 901px;
+height: 10px;
+fill-opacity: inherit;
+position: relative; 
+}

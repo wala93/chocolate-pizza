@@ -23,10 +23,35 @@ main{
     max-width: 70%;
     margin-top: 40px;
 }
-#hashed-box{
+.hashed-box{
     /* box-decoration-break: slice; */
     width: 901px;
 height: 10px;
 fill-opacity: inherit;
 position: relative; 
+border: 1px;
+background-color:rgb(180, 191, 192);
+
 }
+.left-column{float: left;
+    position: relative;
+    height: 90%;
+}
+.right-column{clear: both;
+float: right;
+position: relative;
+height:90%;
+bottom: 210px;
+}
+label{margin-top: 20px;}
+input{margin-top: 20px;}
+
+form{background-image: url('../Images/list-bg.png');background-repeat: no-repeat;
+    background-size: 800px;
+}
+
+button {background-color: rgb(192, 90, 90);
+color: honeydew;}
+.button{float: left;}
+section div {clear: both;}
+footer{margin-top: 30px;}

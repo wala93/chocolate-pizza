@@ -11,6 +11,9 @@ header nav {
 header{
     margin-bottom: 30px;
 }
+
+
+
 body{
     margin-left: 15%;
     margin-right: 15%;
@@ -20,38 +23,163 @@ body{
     position: relative;
 } */
 main{
-    max-width: 70%;
+    max-width: 100%;
     margin-top: 40px;
+
+
+}
+
+.social{
+    float: right;
+margin-top: -39px;
+margin-right: 49px;
+  
+
+}
+.title{
+
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+
+}
+.sm-title{
+
+
+    font-size: 13px;
+color: #a8a8a3;
+}
+
+.print{
+   
+float: right;
+margin-right: 47px;
+margin-bottom: 15px;
+font-size: 13px;
+color: #a8a8a3;
+}
+.parg{
+
+    font-size: 16px;
+    width: 94%;
+    padding: 10px 0px;
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 17px;
+    line-height: 18px
+
+}
+
+.print-icon{
+    display: inline;
+  
+}
+.clear{
+   height: 36px;
 }
 .hashed-box{
-    /* box-decoration-break: slice; */
-    width: 901px;
-height: 10px;
-fill-opacity: inherit;
-position: relative; 
-border: 1px;
-background-color:rgb(180, 191, 192);
+    width: 95%;
+     height: 16px;
+    background: #6FD967;
+    margin-bottom: 25px;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 4px,
+        transparent 1px,
+        rgb(159, 163, 159) 7px
+      ),
+      linear-gradient(
+        to bottom,
+        transparent,
+        transparent
+      )
 
 }
 .left-column{float: left;
     position: relative;
     height: 90%;
 }
-.right-column{clear: both;
-float: right;
-position: relative;
-height:90%;
-bottom: 210px;
+.right-column{
+    clear: both;
+    float: right;
+    position: relative;
+    height: 90%;
+    bottom: 210px;
+    margin-left: 28px;
+    margin-left: 21px;
+    margin-right: 206px;
+    margin-top: -7px;
+}
+.formtext{
+
+    height: 243px;
+    
+    margin-bottom: 36px;
+
 }
 label{margin-top: 20px;}
 input{margin-top: 20px;}
 
-form{background-image: url('../Images/list-bg.png');background-repeat: no-repeat;
-    background-size: 800px;
+form{
+    
+    background-image: url('../Images/list-bg.png');
+    background-repeat: no-repeat;
+    padding: 37px;
+    padding-right: 3px;
+    padding-left: 56px;
+    padding-top: 25px;
+  
 }
 
+.info{
+
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 19px;
+
+}
+.containerInfo{
+     content: "";
+  display: table;
+  clear: both;
+}
 button {background-color: rgb(192, 90, 90);
 color: honeydew;}
-.button{float: left;}
+.button{ border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: inherit12px;
+    margin: 4px 2px;
+    cursor: pointer;
+   float:left;
+   margin-right: 30px;
+margin-left: 134px;
+margin-top: -46px;
+}
+
 section div {clear: both;}
-footer{margin-top: 30px;}
+footer{
+
+    text-align: center;
+padding: 3px;
+color: rgb(173, 169, 169);
+margin-top: 183px;
+margin-bottom: 59px;
+line-height: 38px;
+    }
+
+  .head-title{
+
+    margin-left: 50px;
+  }  
+.logo{
+
+    float: left;
+    width: 101%;
+}
